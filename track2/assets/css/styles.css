@@ -1,0 +1,15 @@
+div{
+	height: 100%;
+	width: 100%;
+	position: left;
+	background: white;
+	margin-bottom: 10px;
+
+}
+
+p{
+	color: #FFF;
+	font-family: georgia;
+	margin: 0px;
+	font-size: 18px;
+}
