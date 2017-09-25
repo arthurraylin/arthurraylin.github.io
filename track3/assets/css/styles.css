@@ -1,0 +1,45 @@
+body{
+	background-color: black;
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper{
+	color: #00c;
+	width: 840px;
+	margin: 0 auto 0 auto;
+
+}
+
+.set{
+	display: inline-block;
+	
+	margin: 90px 20px 70px 20px;
+
+}
+
+.c{
+	width: 60px;
+}
+img{
+	width: 100%;
+
+}
+
+.word{
+	margin: 0;
+	color: white;
+	position: absolute;
+	left: 645px;
+	font-size: 20px;
+	letter-spacing: 7px;
+}
+
+.lookup{
+	width: 200px;
+	margin: 200px 0 0 0;
+	position: absolute;
+	left: 623px;
+
+}
+
