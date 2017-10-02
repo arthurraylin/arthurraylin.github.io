@@ -1,0 +1,113 @@
+
+body{
+	background: black;
+}
+
+a{
+	color: white;
+}
+
+
+.eye{
+	margin: 0 auto 0 auto;
+	padding: 0;
+	border: 0;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	
+}
+
+.word{
+	color: white;
+	font-family: arial;
+
+}
+
+.left {
+	position: absolute;
+	top: 0;
+	left: 0px;
+	width: 220px;
+	height: 100%;
+	background: black;
+	display: inline-block;
+
+}
+
+.right {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin-left: 1195px;
+	width: 220px;
+	height: 100%;
+	background: black;
+	display: inline-block;
+
+}
+
+.middle {
+
+	height: 100%;
+	background: black;
+	display: inline-block;
+
+}
+
+.phrase1{
+	position: relative;
+	width: 210px;
+	top: 800px;
+	left: 585px;
+}
+
+.phrase2{
+	position: relative;
+	width: 290px;
+	top: 1600px;
+	left: 450px;
+}
+
+.phrase3{
+	position: relative;
+	width: 240px;
+	top: 2600px;
+	left: -15px;
+}
+
+.phrase4{
+	position: relative;
+	width: 220px;
+	top: 3400px;
+	left: -170px;
+}
+
+.phrase5{
+	position: relative;
+	width: 250px;
+	top: 800px;
+	left: 570px;
+}
+
+.phrase6{
+	position: relative;
+	width: 250px;
+	top: 1600px;
+	left: 100px;
+}
+
+.phrase7{
+	position: relative;
+	width: 51px;
+	top: 2600px;
+	left: 430px;
+}
+
+.phrase8{
+	position: relative;
+	width: 230px;
+	top: 4000px;
+	left: 15px;
+}
