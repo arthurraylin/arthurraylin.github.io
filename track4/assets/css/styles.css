@@ -33,6 +33,7 @@ a{
 	height: 100%;
 	background: black;
 	display: inline-block;
+	z-index: -1;
 
 }
 
@@ -40,11 +41,12 @@ a{
 	position: absolute;
 	top: 0;
 	right: 0;
-	margin-left: 1195px;
+	/*margin-left: 1195px;*/
 	width: 220px;
 	height: 100%;
 	background: black;
 	display: inline-block;
+	z-index: -1;
 
 }
 
@@ -110,4 +112,9 @@ a{
 	width: 230px;
 	top: 4000px;
 	left: 15px;
+}
+
+a {
+	text-decoration: none;
+	color: #f00;
 }
