@@ -1,0 +1,262 @@
+
+
+.eyewrapper1{
+position: absolute;
+	top: 175px;
+	left: 70px;
+}
+.darkeye1{
+	width: 100px;
+	height: 100px;
+	border: 100%;
+	background: url(../img/darkeye1.png) no-repeat; 
+	transition: all 110ms ease;
+}
+.darkeye1:hover{
+	background-position: -100px 0;
+}
+
+.eyewrapper1-1{
+position: absolute;
+	top: 350px;
+	right: 340px;
+}
+.darkeye1-1{
+	width: 100px;
+	height: 100px;
+	border: 100%;
+	background: url(../img/darkeye1-1.png) no-repeat; 
+	transition: all 110ms ease;
+}
+.darkeye1-1:hover{
+	background-position: -100px 0;
+}
+
+
+.eyewrapper2{
+position: absolute;
+	top: 100px;
+	right: 180px;
+}
+.darkeye2{
+	width: 120px;
+	height: 120px;
+	border: 100%;
+	background: url(../img/darkeye2.png) no-repeat; 
+	transition: all 110ms ease;
+}
+.darkeye2:hover{
+	background-position: -120px 0;
+}
+
+
+.eyewrapper2{
+position: absolute;
+	top: 100px;
+	right: 180px;
+}
+.darkeye2{
+	width: 120px;
+	height: 120px;
+	border: 100%;
+	background: url(../img/darkeye2.png) no-repeat; 
+	transition: all 110ms ease;
+}
+.darkeye2:hover{
+	background-position: -120px 0;
+}
+
+
+.eyewrapper2-1{
+position: absolute;
+	top: 740px;
+	left: 640px;
+}
+.darkeye2-1{
+	width: 120px;
+	height: 120px;
+	border: 100%;
+	background: url(../img/darkeye2-1.png) no-repeat; 
+	transition: all 110ms ease;
+}
+.darkeye2-1:hover{
+	background-position: -120px 0;
+}
+
+.eyewrapper3{
+position: absolute;
+	top: 35px;
+	left: 450px;
+}
+.darkeye3{
+	width: 100px;
+	height: 100px;
+	border: 100%;
+	background: url(../img/darkeye3.png) no-repeat; 
+	transition: all 110ms ease;
+}
+.darkeye3:hover{
+	background-position: -100px 0;
+}
+
+
+.eyewrapper3-1{
+position: absolute;
+	top: 540px;
+	right: 70px;
+}
+.darkeye3-1{
+	width: 100px;
+	height: 100px;
+	border: 100%;
+	background: url(../img/darkeye3-1.png) no-repeat; 
+	transition: all 110ms ease;
+}
+.darkeye3-1:hover{
+	background-position: -100px 0;
+}
+
+.eyewrapper4{
+position: absolute;
+	top: 150px;
+	right: 650px;
+}
+.darkeye4{
+	width: 130px;
+	height: 130px;
+	border: 100%;
+	background: url(../img/darkeye4.png) no-repeat; 
+	transition: all 110ms ease;
+}
+.darkeye4:hover{
+	background-position: -130px 0;
+}
+
+.eyewrapper4-1{
+position: absolute;
+	top: 540px;
+	left: 40px;
+}
+.darkeye4-1{
+	width: 130px;
+	height: 130px;
+	border: 100%;
+	background: url(../img/darkeye4-1.png) no-repeat; 
+	transition: all 110ms ease;
+}
+.darkeye4-1:hover{
+	background-position: -130px 0;
+}
+
+.eyewrapper5{
+position: absolute;
+	top: 470px;
+	left: 440px;
+}
+.darkeye5{
+	width: 130px;
+	height: 130px;
+	border: 100%;
+	background: url(../img/darkeye5.png) no-repeat; 
+	transition: all 110ms ease;
+}
+.darkeye5:hover{
+	background-position: -130px 0;
+}
+
+
+.eyewrapper5-1{
+position: absolute;
+	top: 1050px;
+	left: 240px;
+}
+.darkeye5-1{
+	width: 130px;
+	height: 130px;
+	border: 100%;
+	background: url(../img/darkeye5-1.png) no-repeat; 
+	transition: all 110ms ease;
+}
+.darkeye5-1:hover{
+	background-position: -130px 0;
+}
+
+
+.eyewrapper5-2{
+position: absolute;
+	top: 1450px;
+	right: 380px;
+}
+.darkeye5-2{
+	width: 130px;
+	height: 130px;
+	border: 100%;
+	background: url(../img/darkeye5-2.png) no-repeat; 
+	transition: all 110ms ease;
+}
+.darkeye5-2:hover{
+	background-position: -130px 0;
+}
+
+.eyewrapper5-3{
+position: absolute;
+	top: 2050px;
+	right: 140px;
+}
+.darkeye5-3{
+	width: 130px;
+	height: 130px;
+	border: 100%;
+	background: url(../img/darkeye5-3.png) no-repeat; 
+	transition: all 110ms ease;
+}
+.darkeye5-3:hover{
+	background-position: -130px 0;
+}
+
+.eyewrapper6{
+position: absolute;
+	top: 1740px;
+	left: 140px;
+}
+.darkeye6{
+	width: 100px;
+	height: 100px;
+	border: 100%;
+	background: url(../img/darkeye6.png) no-repeat; 
+	transition: all 110ms ease;
+}
+.darkeye6:hover{
+	background-position: -100px 0;
+}
+
+.eyewrapper6-1{
+position: absolute;
+	top: 1150px;
+	right: 140px;
+}
+.darkeye6-1{
+	width: 100px;
+	height: 100px;
+	border: 100%;
+	background: url(../img/darkeye6-1.png) no-repeat; 
+	transition: all 110ms ease;
+}
+.darkeye6-1:hover{
+	background-position: -100px 0;
+}
+
+
+.kid{
+	position: absolute;
+	top: 1950px;
+	right: 600px;
+}
+
+
+
+
+
+
+
+

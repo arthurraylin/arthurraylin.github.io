@@ -1,0 +1,118 @@
+
+
+.eye1{
+position: absolute;
+	top: 175px;
+	left: 70px;
+}
+
+
+.eye2{
+	position: absolute;
+	top: 100px;
+	right: 180px;
+}
+
+.eye3{
+	position: absolute;
+	top: 35px;
+	left: 450px;
+}
+
+.eye4{
+	position: absolute;
+	top: 150px;
+	right: 650px;
+}
+
+.eye1-1{
+	position: absolute;
+	top: 350px;
+	right: 340px;
+}
+
+.eye3-1{
+	position: absolute;
+	top: 540px;
+	right: 70px;
+}
+
+.eye4-1{
+	position: absolute;
+	top: 540px;
+	left: 40px;
+}
+
+.eye2-1{
+	position: absolute;
+	top: 740px;
+	left: 640px;
+}
+
+.eye5{
+	position: absolute;
+	top: 470px;
+	left: 440px;
+}
+.eye5-1{
+	position: absolute;
+	top: 1050px;
+	left: 240px;
+}
+
+.eye5-2{
+	position: absolute;
+	top: 1450px;
+	right: 380px;
+}
+
+.eye6{
+	position: absolute;
+	top: 1750px;
+	left: 140px;
+}
+
+
+.eye6-1{
+	position: absolute;
+	top: 1150px;
+	right: 140px;
+}
+
+.eye5-3{
+	position: absolute;
+	top: 2050px;
+	right: 140px;
+}
+
+.kid{
+	position: absolute;
+	top: 1950px;
+	right: 600px;
+}
+
+.whitekid{
+	position: absolute;
+	top: 500px;
+	right: 600px;
+}
+
+.phrase{
+	font-family: times;
+	position: absolute;
+	top: 25%;
+	left: 36%;
+	transform: translate(-50% -50%);
+	width: 25%;
+	display: inline-block;
+	text-align: center;
+
+
+}
+
+
+
+
+
+
+
