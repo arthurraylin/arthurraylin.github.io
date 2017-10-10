@@ -23,4 +23,70 @@ body{ font-size: 0; }
 	display: inline-block;
 }
 
+.reddot {
+	background: red;
+	width: 15px;
+	height: 15px;
+	border-radius: 100%;
+	position: absolute;
+	top: 240px;
+	left: 640px;
+}
+.bluedot {
+	background: blue;
+	width: 15px;
+	height: 15px;
+	border-radius: 100%;
+	position: absolute;
+	top: 240px;
+	right: 640px;
+}
+
+.door1{
+	position: absolute;
+	top: 21%;
+	left: 17%;
+	
+}
+
+.door2{
+	position: absolute;
+	top: 21%;
+	right: 17%;
+	
+}
+
+.phrase1{
+	display: inline-block;
+	width: 350px;
+	height: 70px;
+	border: 100%;
+	color: white;
+	background-color: red;
+	font-size: 50px;
+	font-family: arial;
+	text-align: center;
+	position: absolute;
+	top: 335px;
+	right: 180px;
+
+}
+
+.phrase2{
+	display: inline-block;
+	width: 350px;
+	height: 70px;
+	border: 100%;
+	color: black;
+	background-color: blue;
+	font-size: 50px;
+	font-family: arial;
+	text-align: center;
+	position: absolute;
+	top: 335px;
+	left: 180px;
+
+}
+
+
 
