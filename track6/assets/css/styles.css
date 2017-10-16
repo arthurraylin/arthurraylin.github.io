@@ -1,0 +1,23 @@
+.wrapper{
+	padding: 0;
+	background: black;
+	display: inline-block;
+	margin: 0;
+	width: 27430px;
+}
+
+
+.box{
+	padding: 0;
+	display: inline-block;
+	margin: 0 0 0 2000px;
+	width: 675px;
+}
+
+.eyeshape{
+	padding: 0;
+	display: inline-block;
+	position: fixed;
+	margin: 0;
+	
+}
