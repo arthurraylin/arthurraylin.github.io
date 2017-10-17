@@ -3,14 +3,23 @@
 var cash = 100000;
 // global charge value
 
+
+
+
 update_wallet();
 
-$('.item').click(function() {
+$('.item').click(
+	function() {
+		
 	var item = $(this).data('item'),
 	    amount = $(this).data('amount');
 
 	charge_card(amount, item);
-});
+}
+);
+
+
+
 
 
 function charge_card(amount, item) {
@@ -24,6 +33,9 @@ function charge_card(amount, item) {
 		alert('not enough money.')
 	}
 }
+
+
+
 
 function update_wallet() {
 	$('.cash').html(cash);
