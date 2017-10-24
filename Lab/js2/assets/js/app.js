@@ -24,6 +24,7 @@ $('.nav-item').click(function() {
 });
 
 
+
 $('.close-button').click(function() {
 	$('audio')[0].pause();
 	$('.lightbox').addClass('hide')

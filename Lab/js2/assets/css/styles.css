@@ -55,6 +55,7 @@ ul, li {
 .content.red { background: #D0021B; }
 .content.sol-lewitt { background: url('../img/sol-lewitt.gif'); }
 .content.about { background: #ffa; }
+/*specific color in each nav buttons*/
 
 .lightbox.beyonce {
 	width:100%;
@@ -74,6 +75,7 @@ ul, li {
 		transform: translate(-50%,-50%);
 
 	}
+	/*position of beyonce's content: Slay position*/
 
 
 .close-button {
@@ -85,11 +87,13 @@ ul, li {
 	cursor: pointer;
 	color: #fff;
 }
+/*position of beyonce's content: X escape button */
 
 audio { opacity: 0;}
 
 
 .hide { display: none; }
+/*function for hiding specific event when finished (check Java)*/
 
 
 
