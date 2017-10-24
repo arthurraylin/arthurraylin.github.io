@@ -46,6 +46,7 @@ ul, li {
 }
 
 .nav-item:hover, .nav-item.active {
+/*active is just a name for the fuction below*/
 	background: #000;
 	color: #fff;
 }

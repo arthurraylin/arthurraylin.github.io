@@ -35,12 +35,9 @@
 	transform: translate(-50%, -50%);
 }*/
 
-.item.active {
-	background-color: white;
-}
 
-.square{
-	background-color: grey;
+.wrapper{
+	background-color: #f1f1f1;
 	width: 1200px;
 	height: 685px;
 	position: fixed;
@@ -51,8 +48,8 @@
 }
 .weather{
 	position: fixed;
-	width: 1200px;
-	height: 685px;
+	width: 1212px;
+	height: 684px;
 
 }
 
@@ -60,6 +57,11 @@
 	display: none;
 }
 
+.wrapper.reflection { background: url(../img/reflection.gif); }
+.wrapper.sky { background: url(../img/sky.gif); }
+.wrapper.snowing { background: url(../img/snowing.gif); }
+.wrapper.ocean { background: url(../img/ocean.gif); }
+.wrapper.forest { background: url(../img/forest.gif); }
 
 
 

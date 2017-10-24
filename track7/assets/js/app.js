@@ -1,13 +1,7 @@
-$('item').click(function(){
+$('.nav-item').click(function() {
+	var button_name = $(this).data('button');
 
-	var item = $(this).data('button');
+	$('.wrapper').attr('class', 'wrapper');
+	$('.wrapper').addClass(button_name); 
 
-
-	$() 
-
-	if (button_name == 'relection1') {
-		$('.relection').removeClass('hide');
-	} 
-
-
-})
+});
