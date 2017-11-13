@@ -10,8 +10,7 @@
 	display: inline-block;
 	padding: 0 0 0 0;
 	margin: 0px 32px 100px 32px;
-	background: #f1f1f1;
-	font-size: 20px;
+	font-size: 0;
 }
 
 
@@ -61,17 +60,17 @@
 
 .n1-1{
 	position: absolute;
-	top:375px;
+	top:380px;
 	left:182px;
 }
 .n1-2{
 	position: absolute;
-	top:375px;
+	top:380px;
 	left:650px;
 }
 .n1-3{
 	position: absolute;
-	top:375px;
+	top:380px;
 	right:207px;
 }
 
@@ -95,40 +94,45 @@
 
 .n3-1{
 	position: absolute;
-	top:1195px;
+	top:1190px;
 	left:182px;
 }
 
 .n3-2{
 	position: absolute;
-	top:1195px;
+	top:1190px;
 	left:650px;
 }
 .n3-3{
 	position: absolute;
-	top:1195px;
+	top:1190px;
 	right:207px;
 }
 .n4-1{
 	position: absolute;
-	top:1605px;
+	top:1595px;
 	left:182px;
 }
 .n4-2{
 	position: absolute;
-	top:1605px;
+	top:1595px;
 	left:650px;
 }
 
 .n4-3{
 	position: absolute;
-	top:1605px;
+	top:1595px;
 	right:207px;
 }
 
+.c1{ color: white; }
+.c3{ color: white; }
+.c5{ color: white; }
+.c7{ color: white; }
 
 
-.wrapper.red1{background: #2FB283;}
+.wrapper.red1{background: red;}
+.wrapper.white1{background: white;}
 
 
 

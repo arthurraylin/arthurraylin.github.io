@@ -1,3 +1,43 @@
+// $('.button').click(function() {
+// 	$('.wrapper').attr('class', 'wrapper red1');
+// });
+
+// $('.button2').click(function() {
+// 	$('.wrapper').attr('class', 'wrapper blue');
+// });
+
+
+$('.dontpush1').click(function() {
+	$('.wrapper').attr('class', 'wrapper red1');
+});
+
+$('.dontpush2').click(function() {
+	$('.wrapper').attr('class', 'wrapper white1');
+});
+
+$('.dontpush3').click(function() {
+	$('.wrapper').attr('class', 'wrapper red1');
+});
+
+$('.dontpush4').click(function() {
+	$('.wrapper').attr('class', 'wrapper white1');
+});
+
+$('.dontpush5').click(function() {
+	$('.wrapper').attr('class', 'wrapper red1');
+});
+
+$('.dontpush6').click(function() {
+	$('.wrapper').attr('class', 'wrapper white1');
+});
+
+$('.dontpush7').click(function() {
+	$('.wrapper').attr('class', 'wrapper red1');
+});
+
+
+
+
 $('.nav-item1').click(function() {
 	var button_name = $(this).data('button');
 
