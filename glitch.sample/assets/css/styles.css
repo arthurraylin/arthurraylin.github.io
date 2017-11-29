@@ -1,0 +1,28 @@
+body {
+	background-color: black;
+	margin: 0;
+	padding: 0;
+}
+
+.glitch-img {
+	position: absolute;
+}
+
+.g1 {
+	top: 30px;
+	left: 30px;
+	width: 800px;
+	height: 400px;
+	background: url('../img/_test.jpg');
+}
+
+.g2 {
+	top: 460px;
+	left: 30px;
+	width: 800px;
+	height: 400px;
+	background: url('../img/_test.jpg');
+}
+
+
+

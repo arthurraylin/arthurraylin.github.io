@@ -1,3 +1,50 @@
+
+.flashwrapper{
+	display: inline-block;
+	/*background: #F0E1A4;*/
+	background: black;
+	margin: 0;
+	position: absolute;
+	width: 100%;
+	height: 2030px;
+	z-index: -4;	
+}
+
+.flash{
+	position: absolute;
+	right: 0;
+	top: 203px;
+
+}
+
+@-webkit-keyframes blink {
+	0% { opacity: 0; }
+	50% { opacity: 1; }
+	100% { opacity: 0; }
+}
+
+.flash{
+	-webkit-animation: blink 5s;
+	-webkit-animation-iteration-count: infinite;
+	-moz-animation: blink 5s;
+	-moz-animation-iteration-count: infinite;
+	-o-animation: blink 5s;
+	-o-animation-iteration-count: infinite;
+	-ms-animation: blink 5s;
+	-ms-animation-iteration-count: infinite;
+}
+
+.flashwrapper{
+		-webkit-animation: blink 5s;
+	-webkit-animation-iteration-count: infinite;
+	-moz-animation: blink 5s;
+	-moz-animation-iteration-count: infinite;
+	-o-animation: blink 5s;
+	-o-animation-iteration-count: infinite;
+	-ms-animation: blink 5s;
+	-ms-animation-iteration-count: infinite;
+}
+
 .eye{
 	margin: 0 auto 0 auto;
 	padding: 0;
@@ -11,6 +58,8 @@
 	padding: 0 0 0 0;
 	margin: 0px 32px 100px 32px;
 	font-size: 0;
+	opacity: 0.9;
+	
 }
 
 
@@ -19,10 +68,11 @@
 	width: 100%;
 	color: red;
 	font-size: 58px;
-	font-family: arial;
+	font-family: arial, sans-serif;
 	font-weight: bold;
 	margin: 0px 0 100px 0;
 	text-align: center;
+	/*z-index: 5;*/
 
 }
 
@@ -36,8 +86,12 @@
 	font-weight: bold;
 	margin: 100px 0 70px 0;
 	text-align: center;
+	/*z-index: 5;*/
+	
 	
 }
+
+
 
 .word{
 	display: inline-block;
@@ -71,7 +125,7 @@
 .n1-3{
 	position: absolute;
 	top:380px;
-	right:207px;
+	left:1117px;
 }
 
 .n2-1{
@@ -89,7 +143,7 @@
 .n2-3{
 	position: absolute;
 	top:785px;
-	right:207px;
+	left:1117px;
 }
 
 .n3-1{
@@ -106,7 +160,7 @@
 .n3-3{
 	position: absolute;
 	top:1190px;
-	right:207px;
+	left:1117px;
 }
 .n4-1{
 	position: absolute;
@@ -122,7 +176,7 @@
 .n4-3{
 	position: absolute;
 	top:1595px;
-	right:207px;
+	left:1117px;
 }
 
 .c1{ color: white; }
@@ -131,11 +185,23 @@
 .c7{ color: white; }
 
 
-.wrapper.red1{background: red;}
-.wrapper.white1{background: white;}
+.wrapper.red1{
+	background: #D92403;
+	z-index: -5;
 
+}
+.wrapper.white1{
+	background: white;
+	z-index: -5;
+}
 
-
+.music{
+	opacity: 0;
+	margin: 0;
+	position: absolute;
+	left: 20px;
+	top: 20px;
+}
 
 
 

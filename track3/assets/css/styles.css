@@ -1,25 +1,65 @@
 body{
-	background-color: black;
+	background-color: blue;
 	margin: 0;
 	padding: 0;
 }
+
+.whole{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 100%;
+	opacity: 0.5;
+	/*it is about the screenshot size without doubling */
+	width: 750px;
+	height: 675px;
+	/*the size is still 80%*/
+}
+
+
+.glitch1{
+	top: 87px;
+	background: url('../img/1.png');
+}
+
+.glitch2{
+	top: 1089px;
+	background: url('../img/2.png');
+}
+
+.glitch3{
+	top: 2095px;
+	background: url('../img/3.png');
+}
+
+.glitch4{
+	top: 3097px;
+	background: url('../img/4.png');
+}
+
+.glitch5{
+	top: 4103px;
+	background: url('../img/5.png');
+}
+
 
 .wrapper{
 	color: #00c;
 	width: 840px;
 	margin: 0 auto 0 auto;
-
+	background-color: black;
 }
+
 
 .set{
 	display: inline-block;
-	
 	margin: 90px 20px 70px 20px;
 
 }
 
 .c{
 	width: 60px;
+
 }
 img{
 	width: 100%;
@@ -35,6 +75,8 @@ img{
 	/*left: 645px;*/
 	font-size: 20px;
 	letter-spacing: 7px;
+	/*width: 100%;*/
+	background-color: black;
 }
 
 .lookup{

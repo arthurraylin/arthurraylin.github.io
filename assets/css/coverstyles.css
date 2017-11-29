@@ -1,0 +1,40 @@
+body{
+	font-family: arial;
+	font-size: 15px;
+	line-height: 0px;
+	letter-spacing: 3px;
+	margin: 0;
+	padding: 0px;
+
+	background-color: #000;
+	overflow-x: hidden;
+}
+
+body * {
+	z-index: 20;
+
+}
+
+
+a{
+	color: #000;
+}
+
+.box{
+	position: absolute;
+	left: 85%;
+	top: 70%;
+	transform: translate(-50%,-50%);
+}
+
+#light{
+	position: absolute;
+	width: 450px;
+	height: 450px;
+	background-color: #fff;
+	z-index: 10;
+
+	-webkit-box-shadow: inset 0px 0px 10px 166px rgba(0,0,0,1);
+	-moz-box-shadow: inset 0px 0px 10px 166px rgba(0,0,0,1);
+	box-shadow: inset 0px 0px 130px 166px rgba(0,0,0,1);
+}
