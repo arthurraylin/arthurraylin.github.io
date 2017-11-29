@@ -34,5 +34,18 @@ body{
 	display: inline-block;
 	position: fixed;
 	margin: 0;
-	
+	z-index: 5;
+
+}
+
+.reddot {
+	background: red;
+	width: 15px;
+	height: 15px;
+	border-radius: 100%;
+	position: absolute;
+	top: 230px;
+	left: 26680px;
+	z-index: 5;
+
 }

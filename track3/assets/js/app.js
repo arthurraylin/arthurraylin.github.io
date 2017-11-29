@@ -1,4 +1,64 @@
-// $(".glitch1").mgGlitch({
+$(".glitch1").mgGlitch({
+	destory: false,
+	glitch: true,
+	scale: true,
+	blend: true,
+	blendModeType: 'hue',
+	glitch1TimeMin: 305,
+	glitch1TimeMax: 505,
+	glitch2TimeMin: 115,
+	glitch2TimeMax: 205,
+});
+
+$(".glitch2").mgGlitch({
+	destory: false,
+	glitch: true,
+	scale: true,
+	blend: true,
+	blendModeType: 'hue',
+	glitch1TimeMin: 220,
+	glitch1TimeMax: 420,
+	glitch2TimeMin: 30,
+	glitch2TimeMax: 120,
+});
+
+$(".glitch3").mgGlitch({
+	destory: false,
+	glitch: true,
+	scale: true,
+	blend: true,
+	blendModeType: 'hue',
+	glitch1TimeMin: 170,
+	glitch1TimeMax: 370,
+	glitch2TimeMin: 0,
+	glitch2TimeMax: 70,
+});
+
+$(".glitch4").mgGlitch({
+	destory: false,
+	glitch: true,
+	scale: true,
+	blend: true,
+	blendModeType: 'hue',
+	glitch1TimeMin: 250,
+	glitch1TimeMax: 450,
+	glitch2TimeMin: 60,
+	glitch2TimeMax: 150,
+});
+
+$(".glitch5").mgGlitch({
+	destory: false,
+	glitch: true,
+	scale: true,
+	blend: true,
+	blendModeType: 'hue',
+	glitch1TimeMin: 200,
+	glitch1TimeMax: 400,
+	glitch2TimeMin: 10,
+	glitch2TimeMax: 100,
+});
+
+// $(".whole1").mgGlitch({
 // 	destory: false,
 // 	glitch: true,
 // 	scale: true,
@@ -10,7 +70,7 @@
 // 	glitch2TimeMax: 200,
 // });
 
-// $(".glitch2").mgGlitch({
+// $(".whole2").mgGlitch({
 // 	destory: false,
 // 	glitch: true,
 // 	scale: true,
@@ -22,7 +82,7 @@
 // 	glitch2TimeMax: 100,
 // });
 
-// $(".glitch3").mgGlitch({
+// $(".whole3").mgGlitch({
 // 	destory: false,
 // 	glitch: true,
 // 	scale: true,
@@ -34,7 +94,7 @@
 // 	glitch2TimeMax: 100,
 // });
 
-// $(".glitch4").mgGlitch({
+// $(".whole4").mgGlitch({
 // 	destory: false,
 // 	glitch: true,
 // 	scale: true,
@@ -46,7 +106,7 @@
 // 	glitch2TimeMax: 100,
 // });
 
-// $(".glitch5").mgGlitch({
+// $(".whole5").mgGlitch({
 // 	destory: false,
 // 	glitch: true,
 // 	scale: true,

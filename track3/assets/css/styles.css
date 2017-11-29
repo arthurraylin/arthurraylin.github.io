@@ -1,5 +1,5 @@
 body{
-	background-color: blue;
+	background-color: black;
 	margin: 0;
 	padding: 0;
 }
@@ -9,7 +9,7 @@ body{
 	left: 50%;
 	transform: translateX(-50%);
 	width: 100%;
-	opacity: 0.5;
+	/*opacity: 0.5;*/
 	/*it is about the screenshot size without doubling */
 	width: 750px;
 	height: 675px;
@@ -59,6 +59,7 @@ body{
 
 .c{
 	width: 60px;
+	opacity: 0.5;
 
 }
 img{
@@ -89,3 +90,207 @@ img{
 
 }
 
+.whole1{
+	width: 60px;
+	height: 840px;
+	opacity: 0.7;
+	position: absolute;
+	top: 90px;
+}
+
+.g1-1{
+	left: 313px;
+	background: url('../img/stripe1.png');
+}
+.g1-2{
+	left: 417px;
+	background: url('../img/stripe2.png');
+}
+.g1-3{
+	left: 521px;
+	background: url('../img/stripe3.png');
+}
+.g1-4{
+	left: 625px;
+	background: url('../img/stripe4.png');
+}
+.g1-5{
+	left: 729px;
+	background: url('../img/stripe5.png');
+}
+.g1-6{
+	left: 833px;
+	background: url('../img/stripe6.png');
+}
+.g1-7{
+	left: 937px;
+	background: url('../img/stripe7.png');
+}
+.g1-8{
+	left: 1041px;
+	background: url('../img/stripe8.png');
+}
+
+.whole2{
+	width: 60px;
+	height: 840px;
+	opacity: 0.7;
+	position: absolute;
+	top: 1094px;
+}
+
+.g2-1{
+	left: 313px;
+	background: url('../img/stripe1.png');
+}
+.g2-2{
+	left: 417px;
+	background: url('../img/stripe2.png');
+}
+.g2-3{
+	left: 521px;
+	background: url('../img/stripe3.png');
+}
+.g2-4{
+	left: 625px;
+	background: url('../img/eye4.png');
+}
+.g2-5{
+	left: 729px;
+	background: url('../img/stripe5.png');
+}
+.g2-6{
+	left: 833px;
+	background: url('../img/eye6.png');
+}
+.g2-7{
+	left: 937px;
+	background: url('../img/stripe7.png');
+}
+.g2-8{
+	left: 1041px;
+	background: url('../img/stripe8.png');
+}
+
+.whole3{
+	width: 60px;
+	height: 840px;
+	opacity: 0.7;
+	position: absolute;
+	top: 2098px;
+}
+
+.g3-1{
+	left: 313px;
+	background: url('../img/eye1.png');
+}
+.g3-2{
+	left: 417px;
+	background: url('../img/eye2.png');
+}
+.g3-3{
+	left: 521px;
+	background: url('../img/eye3.png');
+}
+.g3-4{
+	left: 625px;
+	background: url('../img/stripe4.png');
+}
+.g3-5{
+	left: 729px;
+	background: url('../img/stripe5.png');
+}
+.g3-6{
+	left: 833px;
+	background: url('../img/stripe6.png');
+}
+.g3-7{
+	left: 937px;
+	background: url('../img/eye7.png');
+}
+.g3-8{
+	left: 1041px;
+	background: url('../img/eye8.png');
+}
+
+.whole4{
+	width: 60px;
+	height: 840px;
+	opacity: 0.7;
+	position: absolute;
+	top: 3102px;
+}
+
+.g4-1{
+	left: 313px;
+	background: url('../img/stripe1.png');
+}
+.g4-2{
+	left: 417px;
+	background: url('../img/stripe2.png');
+}
+.g4-3{
+	left: 521px;
+	background: url('../img/eye3.png');
+}
+.g4-4{
+	left: 625px;
+	background: url('../img/stripe4.png');
+}
+.g4-5{
+	left: 729px;
+	background: url('../img/eye5.png');
+}
+.g4-6{
+	left: 833px;
+	background: url('../img/stripe6.png');
+}
+.g4-7{
+	left: 937px;
+	background: url('../img/eye7.png');
+}
+.g4-8{
+	left: 1041px;
+	background: url('../img/stripe8.png');
+}
+
+.whole5{
+	width: 60px;
+	height: 840px;
+	opacity: 0.7;
+	position: absolute;
+	top: 4106px;
+}
+
+.g5-1{
+	left: 313px;
+	background: url('../img/stripe1.png');
+}
+.g5-2{
+	left: 417px;
+	background: url('../img/eye2.png');
+}
+.g5-3{
+	left: 521px;
+	background: url('../img/eye3.png');
+}
+.g5-4{
+	left: 625px;
+	background: url('../img/eye4.png');
+}
+.g5-5{
+	left: 729px;
+	background: url('../img/eye5.png');
+}
+.g5-6{
+	left: 833px;
+	background: url('../img/eye6.png');
+}
+.g5-7{
+	left: 937px;
+	background: url('../img/eye7.png');
+}
+.g5-8{
+	left: 1041px;
+	background: url('../img/stripe8.png');
+}
