@@ -1,3 +1,45 @@
+$('.confusion').click(function() {
+	$('.wrapper2').removeClass('hide')
+	$('.monitoring').removeClass('hide')
+});
+
+$('.monitoring').click(function() {
+	$('.wrapper3').removeClass('hide')
+	$('.deception').removeClass('hide')
+});
+
+$('.deception').click(function() {
+	$('.wrapper4').removeClass('hide')
+	$('.captivity').removeClass('hide')
+});
+
+$('.captivity').click(function() {
+	$('.wrapper5').removeClass('hide')
+	$('.pressure').removeClass('hide')
+});
+
+$('.pressure').click(function() {
+	$('.glitch1').removeClass('hide')
+	$('.glitch2').removeClass('hide')
+	$('.glitch3').removeClass('hide')
+	$('.glitch4').removeClass('hide')
+	$('.glitch5').removeClass('hide')
+
+	$('.wrapper1').addClass('opacity')
+	$('.wrapper2').addClass('opacity')
+	$('.wrapper3').addClass('opacity')
+	$('.wrapper4').addClass('opacity')
+	$('.wrapper5').addClass('opacity')
+});
+
+
+
+
+
+
+
+
+
 $(".glitch1").mgGlitch({
 	destory: false,
 	glitch: true,
