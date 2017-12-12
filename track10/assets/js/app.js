@@ -84,6 +84,11 @@ $('.final').click(function(){
 	var button_name = $(this).data('button');
 
 	$('.photofinal').removeClass('hide')
+	$('.photofinalspace').removeClass('hide')
+	$('.btmspace').removeClass('hide')
+	$('.exit').removeClass('hide')	
+	$('.word').removeClass('hide')	
+
 
 	$('.photo1').addClass('hide')
 	$('.photo2').addClass('hide')

@@ -1,5 +1,7 @@
 body{
 	font-size: 0;
+	margin: 0;
+	padding: 0;
 }
 
 .direction{
@@ -9,7 +11,9 @@ body{
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
-	z-index: 1;
+	z-index: 10;
+	font-family: arial, sans-serif;
+	letter-spacing: 3px;
 }
 
 .wrapper{
@@ -36,6 +40,7 @@ body{
 	margin: 0;
 	z-index: 5;
 
+
 }
 
 .reddot {
@@ -49,3 +54,12 @@ body{
 	z-index: 5;
 
 }
+
+@font-face {
+   font-family: roboto;
+   src: url(../font/Roboto-Medium.ttf);
+}
+
+
+
+

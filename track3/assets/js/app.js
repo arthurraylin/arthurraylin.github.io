@@ -24,6 +24,7 @@ $('.pressure').click(function() {
 	$('.glitch3').removeClass('hide')
 	$('.glitch4').removeClass('hide')
 	$('.glitch5').removeClass('hide')
+	$('.next').removeClass('hide')
 
 	$('.wrapper1').addClass('opacity')
 	$('.wrapper2').addClass('opacity')

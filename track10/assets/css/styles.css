@@ -22,7 +22,6 @@
 	left:50%;
 	transform: translateX(-50%);
 	z-index: 1;
-
 }
 
 
@@ -189,13 +188,55 @@
 .photofinal{
 	display: inline-block;
 	width: 997px;
-	height: 2000px;
+	height: 1329px;
 	background-color: #5B7CF7;
 	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);
 	top: 495px;
 	z-index: -2;
+}
+
+.photofinalspace{
+	display: inline-block;
+	width: 100%;
+	height: 1325px;
+	margin: 80px 0 0 0;
+}
+
+.word{
+	color: black;
+	font-size: 34px;
+	width: 880px;
+	font-family: vollkorn;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	
+}
+
+p{
+	text-align: center;
+	line-height: 75px;
+}
+
+
+.btmspace{
+	display: inline-block;
+	width: 100%;
+	height: 130px;
+}
+
+.exit{
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 40px solid #29A423;
+	position: absolute;
+	left:50%;
+	transform: translateX(-50%);
+	margin: 33px 0 0 0;
 }
 
 
@@ -209,6 +250,21 @@
 
 .grey{
 	background-color: #9A9A9A;
+}
+
+@font-face {
+   font-family: scripted;
+   src: url(../font/DancingScript-Regular.ttf);
+}
+
+@font-face {
+   font-family: written;
+   src: url(../font/ShadowsIntoLight.ttf);
+}
+
+@font-face {
+   font-family: vollkorn;
+   src: url(../font/VollkornSC-Regular.ttf);
 }
 
 

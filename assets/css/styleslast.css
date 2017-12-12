@@ -1,0 +1,19 @@
+a{
+	color: #000;
+	margin: 0 12px 0 12px;
+	font-family: arial, sans-serif;
+	font-size: 20px;
+	letter-spacing: 3px;
+	text-decoration: none;
+	border-bottom: 1px solid #000;
+
+}
+
+.tracksspace{
+	display: inline-block;
+	position: absolute;
+	top: 45%;
+	transform: translateY(-50%);
+	width: 100%;
+	text-align: center;
+}

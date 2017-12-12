@@ -1,6 +1,8 @@
 
 body{
 	background: black;
+	margin: 0;
+	padding: 0;
 }
 
 a{
@@ -19,10 +21,53 @@ a{
 	
 }
 
+.eyeword{
+	position: absolute;
+	left: 49%;
+	top: 270px;
+	transform: translateX(-50%);
+	color: white;
+	font-family: arial, sans-serif;
+	z-index: -1;
+	font-weight: bold;
+}
+
 .word{
 	color: white;
-	font-family: arial;
+	font-family: arial, sans-serif;
+}
 
+.leftbox{
+	display: inline-block;
+	position: absolute;
+	left: 0px;
+	top: 0;
+	width: 210px;
+	height: 4101px;
+
+
+	background: black; 
+    background: -webkit-linear-gradient(black, #e0d9d7); 
+    background: -o-linear-gradient(black, #e0d9d7); 
+    background: -moz-linear-gradient(black, #e0d9d7); 
+    background: linear-gradient(black, #e0d9d7);
+    z-index: -1;
+}
+
+.rightbox{
+	display: inline-block;
+	position: absolute;
+	left: 1216px;
+	top: 0;
+	width: 210px;
+	height: 4101px;
+
+	background: black; 
+    background: -webkit-linear-gradient(black, #e0d9d7); 
+    background: -o-linear-gradient(black, #e0d9d7); 
+    background: -moz-linear-gradient(black, #e0d9d7); 
+    background: linear-gradient(black, #e0d9d7);
+ 	z-index: -1;
 }
 
 .left {
@@ -33,7 +78,7 @@ a{
 	height: 100%;
 	background: black;
 	display: inline-block;
-	z-index: -1;
+	z-index: -5;
 
 }
 
@@ -46,75 +91,93 @@ a{
 	height: 100%;
 	background: black;
 	display: inline-block;
-	z-index: -1;
+	z-index: -5;
 
 }
 
-.middle {
-
+.middle{
 	height: 100%;
 	background: black;
 	display: inline-block;
-
 }
 
 .phrase1{
 	position: relative;
 	width: 210px;
 	top: 800px;
-	left: 585px;
+	left: 410px;
 }
 
 .phrase2{
 	position: relative;
-	width: 290px;
+	width: 300px;
 	top: 1600px;
-	left: 450px;
+	left: 500px;
 }
 
 .phrase3{
-	position: relative;
+	position: absolute;
 	width: 240px;
+	left: 830px;
 	top: 2600px;
-	left: -15px;
+	left: 49%;
+	transform: translateX(-50%);
+	z-index: -1;
 }
 
 .phrase4{
 	position: relative;
-	width: 220px;
-	top: 3400px;
-	left: -170px;
+	width: 290px;
+	top: 3450px;
+	left: 500px;
 }
 
 .phrase5{
-	position: relative;
+	position: absolute;
 	width: 250px;
 	top: 800px;
-	left: 570px;
+	left: 49%;
+	transform: translateX(-50%);
+	z-index: -1;
 }
 
 .phrase6{
-	position: relative;
+	position: absolute;
 	width: 250px;
 	top: 1600px;
-	left: 100px;
+	left: 49%;
+	transform: translateX(-50%);
+	z-index: -1;
 }
 
 .phrase7{
 	position: relative;
 	width: 51px;
 	top: 2600px;
-	left: 430px;
+	left: 945px;
 }
 
 .phrase8{
 	position: relative;
 	width: 230px;
-	top: 4000px;
-	left: 15px;
+	top: 4010px;
+	left: 22px;
 }
 
 a {
 	text-decoration: none;
 	color: #f00;
 }
+
+@font-face {
+   font-family: cambay;
+   src: url(../font/Cambay-Regular.ttf);
+}
+
+@font-face {
+   font-family: antic;
+   src: url(../font/Antic-Regular.ttf);
+}
+
+
+
